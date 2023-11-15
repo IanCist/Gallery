@@ -45,29 +45,14 @@ nav {
     }
   }
   
-  .welcome-animation {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    animation: fadeOut 2s ease-out forwards;
-    display: none;
-}
 
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        display: none;
-    }
-}
 .cardtitle {
   font-family: "fleur", sans-serif;
 font-weight: 700;
 font-style: normal;
+}
+
+.my-name {
+  color: #333; 
+  margin-left: 400px; 
 }
